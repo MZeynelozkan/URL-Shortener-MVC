@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styling/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a1aff0988e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="scripts/controller.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+        <div class="icon_nav">
+          <img src="./images/logo.svg" alt="" />
+          <ul class="navbar hidden">
+            <li class="navlinks">Features</li>
+            <li class="navlinks">Pricing</li>
+            <li class="navlinks">Resources</li>
+            <li class="navlinks">
+              <div class="buttonsContainer">
+                <button class="btn login">Login</button>
+                <button class="btn signup">Sign Up</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <i class="fa-solid fa-bars fa-7x hidden dropdown"></i>
+      </div>
+    </div>
+    <div class="pageContainer page1">
+      <div class="page1_container">
+        <div class="page1 leftSide">
+          <h1 class="page1 title">More than just shorter links</h1>
+          <p class="page1 text">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="btn get-start">Get Started</button>
+        </div>
+        <div class="page1 rightSide">
+          <img
+            src="./images/illustration-working.svg"
+            alt=""
+            class="page1 image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="pageContainer page2">
+      <div class="page2_container">
+        <div class="text_output">
+          <div class="textbox_container">
+            <div class="insidecontainer">
+              <div class="input_btn">
+                <input
+                  placeholder="Shorten a link here..."
+                  type="text"
+                  class="linkbox"
+                />
+                <button class="shortenit">Shorten It!</button>
+              </div>
+              <p class="allert hidden">Please add a link</p>
+            </div>
+          </div>
+          <div class="output">
+            <!-- <div class="output_container">
+              <p class="link">https://www.linkedin.com/feed/</p>
+              <div class="two_items">
+                <p class="output">http://127.0.0.1:5500</p>
+                <button class="copybutton copied">Copied!</button>
+              </div>
+            </div> -->
+            <!-- <div class="output_container">
+              <p class="link">https://www.linkedin.com/feed/</p>
+              <div class="two_items">
+                <p class="output">http://127.0.0.1:5500</p>
+                <button class="copybutton">Coppy</button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="page2_tops">
+          <h1 class="title page_2">Advanced Statistics</h1>
+          <p class="text">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="card-flex">
+          <div class="card-container card-container1">
+            <div class="img-container">
+              <img
+                src="./images/icon-detailed-records.svg"
+                alt=""
+                class="img"
+              />
+            </div>
+            <h2 class="card-title">Brand Recognition</h2>
+            <p class="card-about">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="card-container card-container2">
+            <div class="img-container">
+              <img
+                src="./images/icon-detailed-records.svg"
+                alt=""
+                class="img"
+              />
+            </div>
+            <h2 class="card-title">Brand Recognition</h2>
+            <p class="card-about">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="card-container card-container3">
+            <div class="img-container">
+              <img
+                src="./images/icon-detailed-records.svg"
+                alt=""
+                class="img"
+              />
+            </div>
+            <h2 class="card-title">Brand Recognition</h2>
+            <p class="card-about">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pageContainer pageContainer3">
+      <div class="boost">
+        <h1 class="boost_title">Boost your links today</h1>
+        <button class="btn get-start boostFoot">Get Started</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footerContainer">
+        <img src="/images/logo.svg" alt="" class="logo" />
+        <div class="links">
+          <h1 class="linksTitle">Features</h1>
+          <ul class="link">
+            <li class="footerLinks">Link Shortening</li>
+            <li class="footerLinks">Branded Links</li>
+            <li class="footerLinks">Analytics</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h1 class="linksTitle">Resources</h1>
+          <ul class="link">
+            <li class="footerLinks">Blog</li>
+            <li class="footerLinks">Developers</li>
+            <li class="footerLinks">Support</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h1 class="linksTitle">Company</h1>
+          <ul class="link">
+            <li class="footerLinks">About</li>
+            <li class="footerLinks">Our Team</li>
+            <li class="footerLinks">Careers</li>
+            <li class="footerLinks">Contact</li>
+          </ul>
+        </div>
+        <ul class="social_medias">
+          <li class="media"><img src="/images/icon-facebook.svg" alt="" /></li>
+          <li class="media"><img src="/images/icon-twitter.svg" alt="" /></li>
+          <li class="media"><img src="/images/icon-pinterest.svg" alt="" /></li>
+          <li class="media"><img src="/images/icon-instagram.svg" alt="" /></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
